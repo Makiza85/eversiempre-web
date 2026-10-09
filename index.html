@@ -60,11 +60,11 @@ h2,h3{font:inherit;margin:0}
 
 /* bio */
 .bio-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(20px,3vw,44px);align-items:start}
-.cv{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:34px 36px;align-items:start}
-.cv dl{margin:0;display:grid;grid-template-columns:44px minmax(0,1fr);gap:4px 10px}
+.cv{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:56px 36px;align-items:start}
+.cv dl{margin:0;display:grid;grid-template-columns:44px minmax(0,1fr);gap:18px 10px}
 .cv dt{font-variant-numeric:tabular-nums}
 .cv dd{margin:0}
-.cv dd li+li{margin-top:4px}
+.cv dd li+li{margin-top:10px}
 
 /* expos */
 .expo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.2fr);gap:18px clamp(20px,3vw,40px);padding-top:14px;border-top:1px solid var(--tinta)}
@@ -354,9 +354,9 @@ const EX=[
 const CV=[
  {h:'Estudios',r:[[2005,['Diseño Gráfico, Universidad de Buenos Aires, Argentina.']],[2007,['Artes Plásticas, Centro Cultural Rojas, Buenos Aires, Argentina.']],[2017,['Análisis de obra con Raúl Flores, Buenos Aires, Argentina.','Clínica de obra con Diana Aisenberg, Buenos Aires, Argentina.']]]},
  {h:'Exposiciones individuales',r:[[2025,['“Pizza & Champagne”, Morfo Galería, Hart Haus, Hong Kong.','“Pizza & Champagne”, Morfo Galería, Cekai OK, Tokio, Japón.']],[2024,['“Tristeza de verano”, Tramo Galería, Buenos Aires, Argentina.']],[2023,['“The Last Gundam”, TING TING Art Space, Taipéi, Taiwán.']],[2021,['“Estado de alarma”, Ochi Projects, Los Ángeles, Estados Unidos.']],[2018,['“Empathy/a”, The Diogenes Club, Los Ángeles, California, Estados Unidos.']],[2017,['“Linaje”, Fundación ICBC, Buenos Aires, Argentina.']],[2015,['“Quiéreme”, Galería Varsi, Roma, Italia.','“La cabeza”, Galería Dinámica, Buenos Aires, Argentina.']],[2014,['“Idealismo”, Galería Libertad, Querétaro, México.']]]},
+ {h:'Publicaciones e instituciones',r:[['',['Ilustraciones para las ediciones impresas de New York Times Magazine y ZEIT Magazine.','Obra seleccionada en Fundación Santander, Museo Amalita Fortabat y Palais de Glace (Buenos Aires), Museo MACRO (Rosario), y la Bienal de Intervenciones Urbanas en el CCEC y el Museo Caraffa (Córdoba).']]]},
  {h:'Ferias de arte',r:[[2026,['ArteSantander, Morfo Galería, Santander, España.','Can Art Fair, Morfo Galería, Madrid, España.']],[2025,['arteBA, Tramo Galería, Buenos Aires, Argentina.','Art Rotterdam, Galería Marian Cramer, Rotterdam, Países Bajos.','Art Tainan, TING TING Art Space, Taiwán.']],[2024,['MAPA, Tramo Galería, Buenos Aires, Argentina.','SWAB, Tramo Galería, Barcelona, España.','ART TAIPEI, TING TING Art Space, Taipéi, Taiwán.']],[2023,['SWAB, SmartGallery, Barcelona, España.']],[2022,['ART HSINCHU, TING TING Art Space, Taiwán.','WHATZ Art, TING TING Art Space, Taiwán.']],[2021,['Roma Arte in Nuvola, Galería Varsi, Roma, Italia.','UVNT, Ruby Gallery (Bruselas), Madrid, España.']],[2020,['UVNT, B-Murals Galería, Madrid, España.']]]},
  {h:'Exposiciones colectivas',r:[[2025,['“Allí donde está el peligro”, Galería La Gran, Madrid.','Pop Up con Marian Cramer Gallery, París.','“La casa invita IV”, Tramo Galería, Buenos Aires.','“CLTRL CNTXT”, Cass Contemporary, Nashville, Estados Unidos.']],[2024,['Pop Up con Marian Cramer Gallery y Kern Gallery, París.','“Morfo Issue I”, Galería Morfo, Madrid.','“La casa invita III”, Tramo Galería, Buenos Aires.','“Los Raros / Las Raras: nuevas narrativas del collage contemporáneo”, Sala de la Pasión, Valladolid.']],[2023,['“New adventures in Hi-Fi. Vol I”, Galería Víctor Lope, Barcelona.','“Thought and Forms”, Marian Cramer Gallery (Ámsterdam) y Central Server Works (LA), París.']],[2022,['“The Strangest Collection”, Galería Cerquone, Madrid.','“100 × 29”, Galería Arniches 26, Vigo.','“Food Obsession”, Garna Gallery, Madrid.','Marian Cramer Gallery (Ámsterdam) y Août Gallery (Beirut), París.','“ERROR”, Galería Fir, Pekín, China.','Año Xacobeo, comisariado por Mateo Feijóo, Acción Cultural Española (AC/E).','Galería Marian Cramer, Ámsterdam.','“Super Boys”, Galería Underdogs, Lisboa.','“ANFIBIOS”, Fundación Banco Santander, Buenos Aires.']],[2021,['“Adolescence”, Studiocromie, Grottaglie, Italia.','FLIPAS, comisariado por Mateo Feijóo, Madrid.','Ruby Gallery, Bruselas.','“CAVE CANEM”, Eve Leibe Gallery, Londres.']],[2020,['“POP-UP”, Galería Marian Cramer, Ámsterdam.','“Camino de cintura”, Galería Kreisler, Madrid.','Residencia Espronceda Institute of Art, Barcelona.']],[2019,['Exhibición Premio Fundación Fortabat, Buenos Aires.','Programa de Arte Público Fonavi, Rosario, Santa Fe.','“Nuevos movimientos contemporáneos”, comisariada por Zach Tutor, Spoke Art, San Francisco.','Programa de Arte Público “Pinta tu barrio”, Quilmes, Buenos Aires.']],[2018,['“Murals in the Market”, Detroit, Estados Unidos.','Street Art Museum, Ámsterdam.','Programa de Arte Público “Paint Gary”, Indiana, Estados Unidos.','“To Have or To Be”, Ochi Projects, Los Ángeles.']],[2017,['Juxtapoz, Miami Art Basel, Estados Unidos.','“Deforme”, Galería Toba, CDMX, México.']],[2016,['Juxtapoz, Miami Art Basel, Estados Unidos.','Programa de Arte Público PawnWorks, Nueva York y Chicago.','Programa de Arte Público Do Art Foundation, Los Ángeles.','Programa de Arte Público, Concejo de Mill Valley, California.','“Pioneros de un viaje a ningún lado”, Museo Caraffa, Córdoba, Argentina.']],[2015,['Programa de Arte Público en East Harlem, Nueva York.','“Fuera de la línea”, Argentina y Brasil, Museo MACRO, Rosario.','“Condition”, Athen B Gallery, Oakland, Estados Unidos.']],[2014,['“Pitiless Gaze of the Hysterical Realism”, 999 Gallery, Roma.','“Friends and Family”, Miami Art Basel, Estados Unidos.','“Motín”, Dinámica Galería, Buenos Aires.','Programa de Arte Público “Bien Urbain”, Besanzón, Francia.','“Villa Ocupada”, neomuralismo de América Latina a Europa, Nantes, Francia.','Programa de Arte Público “PUBLIC”, Perth, Australia.','Programa de Residencias Artísticas Facebook, Buenos Aires.']],[2013,['“Do Art Foundation: Project Boulevard St Michel”, Montreal, Canadá.','Proyecto PawnWorks, Nueva York, Chicago y Cleveland.','Do Art Foundation, Los Ángeles.','Programa de Arte Público “Desert Project”, Navajo, Arizona.','Oficinas de Young & Rubicam, Nueva York.']],[2012,['Fountain Art Fair, Art Basel, Miami.','“Le Mur”, L’Espace des Blancs Manteaux, París.','“A Space In Between & Union”, Ciudad del Cabo, Sudáfrica.','Programa de Arte Público “Le Mur”, París.']]]},
- {h:'Publicaciones e instituciones',r:[['',['Ilustraciones para las ediciones impresas de New York Times Magazine y ZEIT Magazine.','Obra seleccionada en Fundación Santander, Museo Amalita Fortabat y Palais de Glace (Buenos Aires), Museo MACRO (Rosario), y la Bienal de Intervenciones Urbanas en el CCEC y el Museo Caraffa (Córdoba).']]]},
 ];
 
 
@@ -398,7 +398,7 @@ const CVT=[
   ['Diseño Gráfico, Universidad de Buenos Aires','Graphic Design, University of Buenos Aires'],['Artes Plásticas','Fine Arts'],
   ['Análisis de obra con','Critique of work with'],['Clínica de obra con','Studio clinic with'],
   ['Ilustraciones para las ediciones impresas de','Illustrations for the print editions of'],['Obra seleccionada en','Work selected at'],
-  ['la Bienal de Intervenciones Urbanas en el','the Urban Interventions Biennial at the'],
+  ['la Bienal de Intervenciones Urbanas en el CCEC y el','the Urban Interventions Biennial at the CCEC and the'],['la Bienal de Intervenciones Urbanas en el','the Urban Interventions Biennial at the'],
   ['Exhibición Premio Fundación Fortabat','Fortabat Foundation Prize exhibition'],['Programa de Residencias Artísticas Facebook','Facebook Artist Residency Program'],
   ['Programa de Arte Público en','Public Art Program in'],['Programa de Arte Público,','Public Art Program,'],['Programa de Arte Público','Public Art Program'],
   ['Concejo de Mill Valley','Mill Valley City Council'],['Oficinas de Young & Rubicam','Young & Rubicam offices'],['Proyecto PawnWorks','PawnWorks Project'],
@@ -409,7 +409,7 @@ const CVT=[
   ['Tokio, Japón','Tokyo, Japan'],['Taipéi','Taipei'],['Taiwán','Taiwan'],['Los Ángeles','Los Angeles'],['Roma, Italia','Rome, Italy'],['Roma.','Rome.'],
   ['Italia','Italy'],['México.','Mexico.'],['España','Spain'],['Bruselas','Brussels'],['París','Paris'],['Ámsterdam','Amsterdam'],['Pekín','Beijing'],
   ['Lisboa','Lisbon'],['Londres','London'],['Nueva York','New York'],['Canadá','Canada'],['Francia','France'],['Besanzón','Besançon'],
-  [/ y (?=[A-ZÁÉÍÓÚ])/g,' and ']
+  ['y la Bienal','and the Biennial'],['en el CCEC y el Museo','at the CCEC and the Museo'],[/ y (?=[A-ZÁÉÍÓÚa-z])/g,' and ']
 ];
 
 // ===== Public (murales) =====
