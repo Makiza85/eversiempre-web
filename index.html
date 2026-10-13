@@ -555,7 +555,7 @@ function route(){
   chequearFondo&&setTimeout(chequearFondo,0);
   if(obra)abrirVisor(W,obra.k,0);
 }
-addEventListener('hashchange',route);
+addEventListener('hashchange',()=>{route();try{const h=location.hash.slice(1);if(window.goatcounter&&window.goatcounter.count&&h)window.goatcounter.count({path:'/'+h,title:h});}catch(_){}});
 
 // volver arriba: aparece al acercarse al final de la página
 const subir=document.getElementById('subir');
@@ -579,5 +579,6 @@ setLang(inicial,false);
 route();
 </script>
 
+<script data-goatcounter="https://eversiempre.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
